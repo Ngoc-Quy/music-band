@@ -1,9 +1,31 @@
-.navbar-collapse {
-    .navbar-nav {
+.homepage-container {
+    .navbar {
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0) !important;
+        padding-top: 20px;
+
         .nav-link {
             &.active {
                 color: #00bfff;
             }
         }
+    }
+}
+
+.btn-login {
+    border-radius: 5px;
+    padding: 0 15px;
+    border: 1px solid #535353;
+    margin-right: 15px;
+    height: 40px;
+}
+.btn-signup {
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 15px;
+    color: white;
+    background: black;
+    &:hover {
+        background: #303030;
     }
 }

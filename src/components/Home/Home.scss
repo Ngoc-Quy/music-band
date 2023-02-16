@@ -1,0 +1,38 @@
+video {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.homepage-container {
+    .home-content {
+        position: relative;
+        padding: 100px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .home-title1 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .home-title2 {
+            font-size: 22px;
+        }
+
+        .home-title3 {
+            button {
+                height: 40px;
+                border-radius: 4px;
+                padding: 0 15px;
+                color: white;
+                background: black;
+                &:hover {
+                    background: #303030;
+                }
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
 import './Header.scss';
 
@@ -29,13 +29,15 @@ function Header() {
                         </NavLink>
                     </Nav>
                     <Nav>
-                        <NavDropdown title="settings" id="basic-nav-dropdown">
+                        <button className="btn-login">Đăng nhập</button>
+                        <button className="btn-signup">Đăng ký</button>
+                        {/* <NavDropdown title="settings" id="basic-nav-dropdown">
                             <NavDropdown.Item>Đăng nhập</NavDropdown.Item>
                             <NavDropdown.Item>Đăng xuất</NavDropdown.Item>
                             <NavDropdown.Item>
                                 Thông tin cá nhân
                             </NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
